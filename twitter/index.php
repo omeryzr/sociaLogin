@@ -35,7 +35,7 @@ $content = $connection->get('account/verify_credentials');
 <!DOCTYPE html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Coders' Grave | Twitter Authentication Demo</title>
+  <title>socialogin | Twitter Authentication Demo</title>
 </head>
 <body>
 Twitter bağlantısı başarıyla sağlandı.<br /><br />
