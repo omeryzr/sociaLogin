@@ -15,7 +15,7 @@ $sesAccessToken = $_SESSION['access_token'];
 // session değerlerinin varolup olnadığının kontrolünü yapıyoruz.
 // Eğer yoksa connect.php'ye yonlendiriyoruz
 if (empty($sesAccessToken) || empty($sesAccessToken['oauth_token']) || empty($sesAccessToken['oauth_token_secret'])) {
-  header('Location: ./connect.php');
+  header('Location: connect.php');
 }
 
 // TwitterOAuth sınıfını gerekli başlangıç değerlerini vererek connection

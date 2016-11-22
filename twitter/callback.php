@@ -14,7 +14,7 @@ require_once('Twitter/config.php');
 // SESSION globalinizdeki oauth_token anahtarının eşit olup olmadığını
 // kontrol eder. Eğer koşul sağlanmıyorsa ise login.php'ye yönlendirir.
 if (isset($_GET['oauth_token']) && $_SESSION['oauth_token'] !== $_GET['oauth_token']) {
-  header('Location: ./login.php');
+  header('Location: login.php');
 }
 
 // TwitterOAuth sınıfını gerekli başlangıç değerlerini vererek connection
