@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>sociaLogin</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -28,10 +28,10 @@
   		  <h2>Login with social network<br /> just click</h2>
           <div class="col-md-6 .col-md-offset-3">
                <ul class="social">
-                <li class="facebook"><a href="http://facebook.com/alterowo"><i class="fa fa-facebook fa-3x"></i></a></li>
-                <li class="twitter"><a href="http://twitter.com/Kyokushinowa"><i class="fa fa-twitter fa-3x"></i></a></li>
-                <li class="googleplus"><a href="http://www.pinterest.com/beatagibalska/"><i class="fa fa fa-google-plus fa-3x"></i></a></li>
-                <li class="instagram"><a href="https://www.behance.net/Kurnikowa"><i class="fa fa-instagram fa-3x"></i></a></li>
+                <li class="facebook"><a href="http://facebook.com/"><i class="fa fa-facebook fa-3x"></i></a></li>
+                <li class="twitter"><a href="http://socialogin.herokuapp.com/twitter/"><i class="fa fa-twitter fa-3x"></i></a></li>
+                <li class="googleplus"><a href="http://www.pinterest.com/"><i class="fa fa fa-google-plus fa-3x"></i></a></li>
+                <li class="instagram"><a href="https://www.behance.net/"><i class="fa fa-instagram fa-3x"></i></a></li>
               </ul>
           </div>
       </div>
