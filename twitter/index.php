@@ -40,6 +40,6 @@ $content = $connection->get('account/verify_credentials');
 <body>
 Twitter bağlantısı başarıyla sağlandı.<br /><br />
 Merhaba <strong><?php echo $content->name ?></strong>
-<li><a href='logout'>Çıkış</a></li>
+<li><a href='logout.php'>Çıkış</a></li>
 </body>
 </html>
