@@ -40,6 +40,18 @@ $content = $connection->get('account/verify_credentials');
 <body>
 Twitter bağlantısı başarıyla sağlandı.<br /><br />
 Merhaba <strong><?php echo $content->name ?></strong>
+<div id ='leftColumn'>
+    <img src='$accountCredentials->profile_banner_url' alt='$accountCredentials->name' title='$accountCredentials->name' id='profileBanner' />
+    <img src='$accountCredentials->profile_image_url' alt='$accountCredentials->name' title='$accountCredentials->name' id='profileImage' />
+    <hroup>
+        <h6>$accountCredentials->name <span>(@$accountCredentials->screen_name)</span></h6>
+        <h6> Tweetler :<span> $accountCredentials->statuses_count </span></h6>
+        <h6> Takip Edilen :<span> $accountCredentials->friends_count </span></h6>
+        <h6> Takipçiler :<span> $accountCredentials->followers_count </span></h6>
+    </hroup>
+    <div class='clear'></div>
+    <span> $accountCredentials->description </span>
+</div>";
 <li><a href='logout.php'>Çıkış</a></li>
 </body>
 </html>
